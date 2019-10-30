@@ -1,4 +1,4 @@
-# UBSDevCon
+# UBSDevCon Demo
 DevTest Labs Demo
 
 Quick-start Instructions:
