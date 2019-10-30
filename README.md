@@ -17,7 +17,7 @@ Quick-start Instructions:
 	.\ProvisionDemoLab.ps1 -SubscriptionId "<Azure subscription ID where the lab will be created>" -ResourceGroupName "<name for the new resource group where the lab will be created>" -ResourceGroupLocation "<location for the resource group to be created. e.g. West US>"
 
    e.g.
-	PS C:\DemoLabTemplate>.\ProvisionDemoLab.ps1 -SubscriptionId "12345678-1234-5678-1234-123456789000" -ResourceGroupName "FabrikamDevTestDemoLab" -ResourceGroupLocation "West US"
+	PS C:\DemoLabTemplate>.\ProvisionDemoLab.ps1 -SubscriptionId "12345678-1234-5678-1234-123456789000" -ResourceGroupName "DevCon2019Demo" -ResourceGroupLocation "East US"
 
 =====================================================================================
 
