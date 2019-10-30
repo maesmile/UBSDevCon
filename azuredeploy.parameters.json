@@ -1,0 +1,60 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newLabName": {
+      "value": "UBSDevConDemoAutomation"
+    },
+    "labVmShutDownTime": {
+      "value": "21:00"
+    },
+    "maxAllowedVmsPerUser": {
+      "value": 10
+    },
+    "maxAllowedVmsPerLab": {
+      "value": 100
+    },
+    "allowedVmSizes": {
+      "value": "\"Standard_A2\", \"Standard_A4\""
+    },    
+    "pilotVMName": {
+      "value": "TestBox001"
+    },
+    "VMSize": {
+      "value": "Standard_A2"
+    },
+    "username": {
+      "value": "demolab"
+    },
+    "password": {
+      "value": "<3DevTestLabs!"
+    },
+    "devBoxTemplateName": {
+      "value": "UBSDevCon Dev Box"
+    },
+    "devBoxTemplateDescription": {
+      "value": "UBSDevCon Dev box environment"
+    },
+    "testBoxTemplateName": {
+      "value": "UBSDevCon Test Box"
+    },
+    "testBoxTemplateDescription": {
+      "value": "UBSDevCon Test box environment"
+    },
+    "goldenImageTemplateName": {
+      "value": "UBSDevCon Latest Testing Build 0219"
+    },
+    "goldenImageTemplateDescription": {
+      "value": "Latest testing build 100219 from VSO"
+    },
+    "devBoxVMName": {
+      "value": "DevBox001"
+    },
+    "testBoxVMName": {
+      "value": "TestBox002"
+    },
+    "goldenImageVMName": {
+      "value": "TestLatest0219"
+    }
+  }
+}
