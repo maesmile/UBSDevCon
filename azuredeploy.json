@@ -4,7 +4,7 @@
   "parameters": {
     "newLabName": {
       "type": "string",
-      "defaultValue": "UBSDevConDemoAutomation",
+      "defaultValue": "UBSDevCon2019Demo",
       "metadata": {
         "description": "The name of the new lab instance to be created."
       }
@@ -228,24 +228,7 @@
             "evaluatorType": "AllowedValuesPolicy",
             "status": "enabled"
           }
-        },
-        {
-          "apiVersion": "2016-05-15",
-          "name": "privaterepo885",
-          "type": "artifactSources",
-          "dependsOn": [
-            "[variables('newLabId')]"
-          ],
-          "properties": {
-            "uri": "[parameters('artifactRepoUri')]",
-            "folderPath": "[parameters('artifactRepoFolder')]",
-            "branchRef": "[parameters('artifactRepoBranch')]",
-            "displayName": "[parameters('artifactRepoDisplayName')]",
-            "securityToken": "[parameters('artifactRepoSecurityToken')]",
-            "sourceType": "[parameters('artifactRepoType')]",
-            "status": "Enabled"
-          }
-        }
+        },  
       ]
     },
     {
